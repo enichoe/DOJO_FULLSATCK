@@ -1,0 +1,39 @@
+body{
+    background-color: brown;
+    font-family: 'ubuntu';
+}
+
+h1{
+    color: white;
+    font-family: 'nunito';
+}
+
+li{
+    display: inline-block;
+    color: white;
+    font-size: 20px;   
+}
+
+
+img{
+    border-radius: 9px;
+}
+.articleBlog{
+    display: inline-block;
+    width: 360px;
+    max-height: 500px;
+    box-shadow: 0px 0px 12px #bbb;
+    border-radius: 9px;
+   
+}
+.container-info{
+    padding: 15px;
+}
+
+p{
+    color: yellow;
+    line-height: 50px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+}

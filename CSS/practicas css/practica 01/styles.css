@@ -1,0 +1,34 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.titulo{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.contenedor{
+    display: inline-block;
+    padding: 15px;
+    justify-content: center;
+}
+
+
+#img{
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+
+}
+
+.album{
+    color: yellow;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-size: 18px;
+}

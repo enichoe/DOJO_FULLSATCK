@@ -1,0 +1,35 @@
+/* 1rem es igaul a 16pixels */
+
+body{
+    background-color: peru;
+}
+
+button{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 1rem 2rem;
+    /* padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 20px; */
+
+
+    /* el primer valor es izquierda derecha y el segundo valor es arriba abajo */
+    /* padding: 20px 10px; */
+
+
+    /* quitar el borde */
+    border: none;
+
+    /* border entre el margin y padding */
+    /* valores tamaño, estilo y color  */
+    border: 5px solid white;
+
+
+    /* margin espacio externo de este elemto  respecto al elemto anterior */
+    margin:20px ;
+    width: 300px;
+    /* box-sizing   */
+    box-sizing: border-box;
+}

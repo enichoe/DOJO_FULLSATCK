@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form method="post" action="https://webhook.site/24aa1fcf-8ea3-4fd7-ade5-67f26efce101" enctype="multipart/form-data">
+        <fieldset>
+            <label for="tipo_de_vuelo">Seleccionar</label>
+            <select name="tipo_de_vuelo" id="tipo_de_vuelo">
+                <option value="">Ida y vuelta</option>
+                <option value="">Solo ida</option>
+            </select>
+            
+            <label for="tipo_de_pasaje">Tipo de pasaje</label>
+            <select name="tipo_de_pasaje" id="tipo_de_pasaje">
+                <option value="Economy">Economy</option>
+                <option value="Premium Economy">Premium Economy</option>
+                <option value="Premium Businnes">Premium Businnes</option>
+            </select>
+            
+            <label for="pasajero">Pasajero</label>
+            <input type="number" name="pasajero" id="pasajero" value="pasajero">
+
+            
+            <input type="checkbox" name="usar_millas" id="usar_millas" value="usar_millas"/>
+            <label for="usar_millas">Usa tus millas + dinero
+            </label>
+            <br/>
+            <label for="ida_fecha">Ida Fecha</label>
+            <input type="date" placeholder="ida_fecha" id="ida_fecha" name="ida_fecha">
+            <label for="vuelta_Fecha">Ida Fecha</label>
+            <input type="date" placeholder="vuelta_Fecha" id="vuelta_Fecha" name="vuelta_Fecha" >
+            <input type="submit" value="BUSCAR">
+        </fieldset>
+        
+
+
+        
+
+    </form>
+</body>
+</html>

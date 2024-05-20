@@ -1,0 +1,54 @@
+/* slector universal = para todos los elemntos del documento 
+ejemplo para un font family*/
+*{
+    font-family: 'roboto';
+    background-color: bisque;
+}
+
+
+
+
+/* selector etiqeuta */
+
+h1{
+    background-color: black;
+    color: white;
+}
+
+
+/* selector ID */
+
+#btn-primary{
+    margin: 20px;
+    padding: 10px 25px;
+    border: none;
+    background-color: pink;
+    color: yellow;
+}
+
+#imagen{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    margin: 20px;
+    border: 5px solid black;
+}
+
+/* selector CLASE */
+
+.title{
+    font-size: 25px;
+    color: orange;
+    font-style: italic;
+    font-weight: 600;
+}
+
+/* slector de agrupacion */
+h3,h4{
+    font-size: 50px;
+    color: blue;
+}
+
+.linkDojo{
+    color: yellow;
+}

@@ -1,0 +1,33 @@
+body{
+    background-color: aqua;
+}
+#header-dojo{
+    background-image: url(/CSS/MEDIA-QUERIES/images.jpg);
+    height: 350px;
+    background-size: cover;
+
+}
+
+h1{
+    font-size: 40px;
+    color: blue;
+}
+
+@media(max-width:800px){
+    #header-dojo{
+        background-image: url(/CSS/MEDIA-QUERIES/banner-de-juego-con-joystick-joypad-en-un-fondo-neón-para-el-póster-juegos-afiches-generativos-ai-279226649.webp);
+        height: 300px;       
+    }       
+
+    h1{
+        font-size: 20px;
+        color: yellow;
+    }
+}
+
+@media(min-width:300px) and (max-width:500px){
+    #header-dojo{
+        background-image: url(/CSS/MEDIA-QUERIES/1000_F_570477654_C1hkT4OoTXUxCni4bAICk37I3Gppmm3F.jpg);
+        height: 250px;       
+    }   
+}

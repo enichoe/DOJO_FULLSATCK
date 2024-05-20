@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head></fieldset>
+<body>
+    <form method="post" action="https://webhook.site/8c48a576-1bdd-47f2-89d0-e85f42222efa" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Resgistro de Usuario</legend>
+            <label for="username">NOMBRE:</label>
+            <input  type="text" placeholder="Ingresa tu Nombre" value="" id="username" name="username"><br>
+            <label for="email">Ingrese email</label>
+            <input type="email" placeholder="Ingresa @" id="email" name="email"><br>
+            <label for="password">Ingresa Contraseña: </label><br>
+            <input type="password" placeholder="Ingrese contraseña"  id="password" name="password">
+        </fieldset>
+        <br>
+        
+
+        <p>ingresa tu color preferido</p>
+        <label for="rojo">Rojo</label>
+        <input type="checkbox" name="color preferido" id="rojo" value="rojo"/>
+
+        <label for="verde">verde</label>
+        <input type="checkbox" name="color preferido" id="verde" value="verde"/>
+        
+        <label for="morado">morado</label>
+        <input type="checkbox" name="color preferido" id="morado" value="morado"/>
+
+        <br/>
+
+
+        <p>Ingresa tu signo del zodiaco</p>
+        <label for="aries">aries</label>
+        <input type="radio" name="signo" id="aries" value="aries"/>
+
+        <label for="virgo">virgo</label>
+        <input type="radio" name="signo" id="virgo" value="virgo"/>
+
+        <label for="tauro">tauro</label>
+        <input type="radio" name="signo" id="tauro" value="tauro"/>
+        <br/>
+        <input type="file" accept=".mp3" />
+        <br/>
+        <input type="datetime" name="fecha_chekin" id="chekin">
+        <br/>
+        <input type="hidden" name="key-secret" id="key-secret" value="221231521212">
+        <br/>
+        
+
+        <label for="">Ingresa tu lemgiaje preferido</label>
+        <select name="coding" id="">
+            <option value="JavaScript">JavaScript</option>
+            <option value="Phyton">Phyton</option>
+            <option value="C++">C++</option>
+        </select>
+        <br/>
+
+        <input type="submit" value="Enviar datos">
+    </form>
+</body>
+</html>
